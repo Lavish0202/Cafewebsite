@@ -1,0 +1,260 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 Oct, 2017, 3:11:54 PM
+    Author     : HP Laptop
+*/
+
+body,html{
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Kreon', serif;
+}
+
+#myform {
+    text-align: center;
+    margin-left: 0 ;
+}
+
+.Wrapper{
+    margin: 0;
+    padding: 0;
+}
+
+.myNavbar{
+    border-radius: 0;
+    background-color: #30231d;
+    margin: 0 0;
+    font-size: 1.2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.navbar-brand {
+    font-size: 1.5em !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #fffcfc !important;
+}
+
+a:after {
+    color: #fffcfc !important;
+}
+
+a:active {
+    color: #fffcfc !important;
+}
+
+.myNavbar a{
+    color: #f6f1ed;
+}
+
+#myNavbar a:focus{
+    background-color: transparent;
+}
+
+#myNavbar > ul > li > a:hover{
+    background-color: transparent;
+}
+
+body > nav > div > div.navbar-header > button > span{
+    background-color: #f6f1ed;
+}
+
+#myCarousel{
+    width: 100%;
+    height: 85vh;
+    margin: 0;
+}
+
+#container-fluid > div > div.item.active > img{
+    width: 100%;
+    height: 85vh;
+    top: 0;
+    left: 0;
+}
+
+#container-fluid > div > div.item > img{
+    width: 100%;
+    height: 85vh;
+    top: 0;
+    left: 0;
+}
+
+body > div.row{
+    width: 100%;
+    margin: 0;
+}
+
+#floating-text {
+    position: absolute;
+    z-index: 1;
+    min-width: 100%;
+    min-height: 30%;
+    top: 28%;
+    margin-left: -4%;
+    text-align: center;
+    background-color: transparent;
+    color: #fffcfc;
+}
+
+#floating-text h1 {
+    font-size: 7em;
+    padding-bottom: 0.75em;
+}
+
+.FirstBody{
+    width: 100%;
+    height: auto;
+    background-color: #997568;
+    color: #fffcfc !important;
+    opacity: .99;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.FirstBody p{
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.FirstBody hr {
+    width: 60%;
+    opacity: 0.5;
+}
+
+#firstbody-content {
+    width: 90%;
+    margin: auto;
+    padding: 2em;
+}
+
+.FirstBody dl{
+    font-size: 1.3em;
+}
+
+.FirstBody dt {
+    font-size: 1.4em;
+    padding: 0.6em;
+}
+
+.FirstBody dd {
+    padding: 0.2em;
+}
+
+#second-floating-text {
+    position: absolute;
+    margin-top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 40%;
+}
+
+#second-floating-text h4 {
+    font-size: 4em;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Kaushan Script', cursive;
+    color: #db132b;
+    opacity: 1;
+    
+}
+
+.SecondImage{
+    width: 100%;
+    min-height: 75vh;
+    background: url("KAVA3.jpeg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.SecondBody{
+    width: 100%;
+    min-height: 60vh;
+    background-color: #6a5750;
+    box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 8px rgba(0, 0, 0, 0.19);
+    border: 0;
+}
+
+.Footer{
+    background-color: #30231d;
+    width: 100%;
+    float: bottom;
+    height: auto;
+    color: white;
+}
+
+.Footer hr {
+    width: 70% !important;
+}
+
+#footer-content {
+    padding-top: 1.3em; 
+    color: #f6f1ed;
+}
+
+#footer-content dl dd {
+    font-size: 1.1em;
+    text-align: center;
+    color: white
+}
+
+#xs-hr {
+    padding: 0.2em;
+}
+
+#social-media-buttons {
+    font-size: 1.7em;
+    margin-bottom: 1em;
+}
+
+#copyright-row hr {
+    width: 100% !important;
+}
+
+#contact-wrapper {
+    min-width: 100%;
+    min-height: 100vh;
+    background: #6a5750; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #e2b7a4, #6a5750); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #e2b7a4, #6a5750); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #e2b7a4, #6a5750); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #e2b7a4, #6a5750); /* Standard syntax */
+}
+
+.tab-content {
+    padding-bottom: 15px !important;
+}
+
+#contact-wrapper form {
+    text-align: center;
+}
+
+#contact-wrapper {
+    text-align: center;
+}
+
+#reservation-panel {
+    max-width: 80%;
+    margin: 10% auto !important;
+}
+
+#reservation-panel input {
+    width: 50% !important;
+    margin: 0.75em !important;
+}
+
+#reservation-panel select {
+    width: 50% !important;
+    border-radius: 3px;
+    margin: 0.5em !important;
+}
+#myform > table > tbody > tr:nth-child(1){
+    margin-bottom: 15px;
+}

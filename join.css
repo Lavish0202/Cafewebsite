@@ -1,0 +1,45 @@
+
+#headerdiv {
+    width: 100%;
+    height:100px;
+   
+}
+#menudiv > form{
+   
+    text-align: center;
+   
+          width: 100%;
+          height:100%;
+}
+#menudiv > form > table {
+      display: inline-block;
+      border-color:#330000;
+     
+           text-align: center;
+          
+}
+#menudiv > form > table > tbody > tr:nth-child(3) > td:nth-child(3) > input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:250%; 
+}
+#menudiv > form > table > tbody > tr:nth-child(4) > td:nth-child(3) > input{
+    
+    margin-bottom: 10px;
+    width:250%; 
+}
+#menudiv > form > table > tbody > tr:nth-child(7) > td:nth-child(2) > input{
+    margin-top: 15px;
+}
+#menudiv > form > table > tbody > tr:nth-child(1) > td:nth-child(3) > input{
+    width: 250%;
+}
+#menudiv > form > table > tbody > tr:nth-child(5) > td:nth-child(3) > input{
+    width: 250%;
+}
+#menudiv > form > table > tbody > tr > td > input {
+    width: 40% !important;
+}
+#myDate input {
+    width: 40% !important;
+}
